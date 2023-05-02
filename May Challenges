@@ -1,3 +1,4 @@
+//02/05:
 In this kata you will create a function that takes in a list and returns a list with the reverse order.
 
 Examples (Input -> Output)
@@ -9,4 +10,8 @@ Examples (Input -> Output)
 function reverseList(list) {
   return list.reverse();
 }
-//passed
+//passed FT
+
+// 3/5:
+
+
