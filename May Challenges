@@ -38,3 +38,10 @@ function abbrevName(name){
 function remove(s){
   return s.replace( /!$/, '') 
 }
+
+//5/5
+//Consider an array/list of sheep where some sheep may be missing from their place. We need a function that counts the number of sheep present in the array (true means present).
+
+function countSheeps(arrayOfSheeps) {
+  return arrayOfSheeps.filter(Boolean).length;
+}
