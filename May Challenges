@@ -79,3 +79,10 @@ function enough(cap, on, wait) {
   return (on + wait) - cap;
   }
 }
+//10/5
+
+//return Write a function to split a string and convert it into an array of words.
+
+function array(string){
+string.split(' )
+}
