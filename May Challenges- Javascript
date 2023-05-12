@@ -92,3 +92,9 @@ string.split(' )
 function testEven(n) {
   return n % 2 === 0 ? true : false;
 }
+//12/5
+//replace vowels with '!'
+
+function replace(s){
+  return s.replace(/[aeoiu]/ig, '!')  
+}
