@@ -106,3 +106,10 @@ function replace(s){
 function hexToDec(hexString){
  return  parseInt(hexString, 16);
 }
+//17/5
+
+//Return letter's position in alphabet
+function position(letter){
+  const alphabet = 'abcdefghijklmnopqrstuvwxyz';
+  return 'Position of alphabet: ' + (alphabet.indexOf(letter) + 1);
+}
