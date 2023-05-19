@@ -115,3 +115,10 @@ function position(letter){
 }
 //18/05
 const makeUpperCase = str => str.toUpperCase();
+
+//19/05
+//remove all numbers from a string: 
+
+function stringClean(s){
+  return s.replace(/\d/g, "");
+}
