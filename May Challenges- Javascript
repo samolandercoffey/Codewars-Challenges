@@ -122,3 +122,9 @@ const makeUpperCase = str => str.toUpperCase();
 function stringClean(s){
   return s.replace(/\d/g, "");
 }
+
+// 22/05
+//cubbed numbers in a triangle, add each row. 
+function rowSumOddNumbers(n) {
+	return n*n*n
+}
