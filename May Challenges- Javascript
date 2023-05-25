@@ -162,3 +162,13 @@ function sortByLength (array) {
 //Your function would return the following array:
 
 //["Eyes", "Glasses", "Monocles", "Telescopes"]
+
+//25/5
+
+//write a function that takes in several numbers, squares them, and returns them in one sum
+
+function squareSum(numbers){
+  return numbers.reduce(function(sum, n){
+    return (n*n) + sum;
+  }, 0)
+}
