@@ -10,3 +10,9 @@ var isAnagram = function(test, original) {
   var o = original.toLowerCase().split('').sort().join('');
   return (t==o)?true:false;
 };
+
+//double an interger 
+
+function doubleInteger(i) {
+  // i will be an integer. Double it and return it.
+  return i * 2;
